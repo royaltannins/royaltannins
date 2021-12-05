@@ -1,0 +1,19 @@
+.navigation-link {
+    text-transform: uppercase;
+    margin: 0 20px;
+    letter-spacing: 0px;
+    animation: letter-spacing-animation .6s ease-in 1s forwards;
+    transition: color .2s ease-in;
+    &.selected {
+        color: var(--color-grey);
+    }
+}
+
+@keyframes letter-spacing-animation {
+    0% {
+        letter-spacing: 0px;
+    }
+    100% {
+        letter-spacing: 2px;
+    }
+}

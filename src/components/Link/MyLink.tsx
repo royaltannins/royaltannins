@@ -1,12 +1,12 @@
 import React from 'react';
-import './Link.scss';
+import './MyLink.scss';
 
-interface ILinkProps {
+interface IMyLinkProps {
     url : string;
     text : string;
 }
 
-const Link : React.FC<ILinkProps> = props => {
+const MyLink : React.FC<IMyLinkProps> = props => {
     return (
         <div className={`link`}>
             <a href={props.url} target='_blank'>{props.text}</a>
@@ -16,4 +16,4 @@ const Link : React.FC<ILinkProps> = props => {
     );
 }
 
-export default Link;
+export default MyLink;
