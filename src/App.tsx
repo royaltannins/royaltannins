@@ -8,6 +8,7 @@ import Events from './components/Events/Events';
 import Contact from './components/Contact/Contact';
 import Shop from './components/Shop/Shop';
 import Header from './components/Header/Header';
+import About from './components/About/About';
 
 const App : React.FC = props => {
 
@@ -24,6 +25,9 @@ const App : React.FC = props => {
                 </Route>
 
                 <Route path={"/shop"} element={<Shop />} >
+                </Route>
+
+                <Route path={"/about"} element={<About />} >
                 </Route>
 
                 <Route path={"/"} element={<Home />} >
