@@ -22,9 +22,9 @@ const App : React.FC = props => {
 
         <img src={cup} className={`cup-image`}/>
 
-        <p>Events &amp; Merch à venir… Stay tuned!</p>
-        <p>Instagram: @royaltannins<br></br>
-            Email: contact@royaltannins.com</p>
+        <p><br></br>Events &amp; Merch à venir… Stay tuned!</p>
+        <p>Instagram: <a href='https://www.instagram.com/royaltannins/' target='_blank'>@royaltannins</a><br></br>
+            Email: <a href='mailto:contact@royaltannins.com'>contact@royaltannins.com</a></p>
 
             
         <footer></footer>
