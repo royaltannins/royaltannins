@@ -1,0 +1,59 @@
+@import './colors.scss';
+@import './fonts.scss';
+
+.App {
+    text-align: center;
+    background-color: var(--bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--fg);
+
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .balimoon {
+        font-family: BaliMoon;
+        font-size: 4rem;
+    }
+
+    >header {
+        margin: 180px auto 20px;
+        font-size: 32px;
+        text-decoration: underline;
+    }
+
+    >.display-titles {
+        margin-bottom: 40px;
+    }
+
+    >.logo-image {
+        width: 350px;
+    }
+    >.cup-image {
+        width: 223px;
+    }
+    p {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+
+    footer {
+        height: 100px;
+    }
+    
+    .section-title {
+        font-family: BaliMoon;
+        font-size: 5rem;
+        font-weight: normal;
+        margin: 0;
+    }
+}
