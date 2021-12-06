@@ -1,10 +1,15 @@
 import React from 'react';
 import './About.scss';
+import cup from './../../images/cropped-rt-logo-2.jpeg';
 
 const About : React.FC = props => {
     return (
         <div className={`about`}>
-            <h1>À propos des RT</h1>
+            <h1 className={`flex-row`}>
+                <img src={cup} alt={`cup image`} />
+                À propos des RT
+            </h1>
+
             <div className={`spacer`}></div>
             <p>Au départ, Royal Tannins n’étaient qu’une blague entre copains !</p>
             <p>
@@ -26,7 +31,7 @@ const About : React.FC = props => {
             </p>
             <div className={`spacer`}></div>
             <p className={`right`}>
-                - Les Royal Tannins.
+                - <i>Les Royal Tannins.</i>
             </p>
         </div>
     );

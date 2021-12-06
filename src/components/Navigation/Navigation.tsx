@@ -1,4 +1,5 @@
 import React from 'react';
+import Line from '../Line/Line';
 import './Navigation.scss';
 import NavigationLink from './NavigationLink';
 
@@ -14,6 +15,7 @@ const Navigation : React.FC<INavigationProps> = props => {
             <NavigationLink to='/evenements' selected={false} >Évènements</NavigationLink>
             <NavigationLink to='/shop' selected={false} >Boutique</NavigationLink>
             <NavigationLink to='/contact' selected={false} >Contact</NavigationLink>
+            <Line />
         </div>
     );
 }

@@ -13,7 +13,8 @@ const NavigationLink : React.FC<INavigationLinkProps> = props => {
 
     return (
         <Link className={`navigation-link ${selectedClassName}`} to={props.to}>
-            {props.children}
+            <div className='text grey'>{props.children}</div>
+            <div className='text'>{props.children}</div>
         </Link>
     );
 }

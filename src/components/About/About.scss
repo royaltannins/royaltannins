@@ -1,9 +1,22 @@
 .about {
     text-align: left;
     >h1 {
-        text-align: center;
+        align-items: flex-end;
+        text-transform: uppercase;
+        margin: 0;
+        >img {
+            height: 3rem;
+        }
     }
     >.right {
         text-align: right;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        >h1 {
+            align-items: center;
+        }
     }
 }
