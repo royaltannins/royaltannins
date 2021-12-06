@@ -8,6 +8,11 @@
         transition: width .4s ease-in;
         margin-top: -3px;
     }
+    >a {
+        >img {
+            height: 3rem;
+        }
+    }
     &:hover {
         >.underline {
             width: 0%;
