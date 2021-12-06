@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss';
-import logo from './../../images/rt-logo-1.jpeg';
+import logo from './../../images/rt-logo-1-red.jpeg';
 import Navigation from '../Navigation/Navigation';
 
 const Header : React.FC = props => {
