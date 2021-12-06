@@ -8,4 +8,32 @@
         stroke-linejoin: miter;
         stroke-opacity: 1;
     }
+    &.red {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        transition: width .6s;
+        white-space: nowrap;
+        right: 0;
+        top: 0;
+        .path {
+            stroke-dasharray: 536;
+            stroke-dashoffset: 536;
+            stroke: var(--color-red-wine);
+            animation: red-line-animation 10s ease-in 2s infinite;
+        }
+    }
+}
+
+@keyframes red-line-animation {
+    0%, 5% {
+        stroke-dashoffset: 536;
+    }
+    45%, 55% {
+        stroke-dashoffset: 0;
+    }
+    95%, 100% {
+        stroke-dashoffset: 536;
+    }
 }

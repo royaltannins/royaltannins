@@ -15,7 +15,10 @@ const Navigation : React.FC<INavigationProps> = props => {
             <NavigationLink to='/evenements' selected={false} >Évènements</NavigationLink>
             <NavigationLink to='/shop' selected={false} >Boutique</NavigationLink>
             <NavigationLink to='/contact' selected={false} >Contact</NavigationLink>
-            <Line />
+            <div className={`lines`}>
+                <Line isRed={false} />
+                <Line isRed={true} />
+            </div>
         </div>
     );
 }

@@ -3,7 +3,9 @@ import './Footer.scss';
 
 const Footer : React.FC = props => {
     return (
-        <footer></footer>
+        <footer className={`flex-column`}>
+            &copy; 2021
+        </footer>
     );
 }
 
