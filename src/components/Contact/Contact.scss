@@ -1,5 +1,14 @@
 .contact {
-    >.social {
-        justify-content: center;
+    align-items: center;
+    >.grid-container {
+        display: grid;
+        grid-template-columns: 100px 14rem;
+        grid-gap: 10px;
+        >.item {
+            line-height: 3rem;
+            &.left {
+                text-align: left;
+            }
+          }
     }
 }

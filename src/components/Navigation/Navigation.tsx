@@ -12,7 +12,7 @@ const Navigation : React.FC<INavigationProps> = props => {
         <div className={`navigation flex-row`}>
             <NavigationLink to='/' selected={true} >Accueil</NavigationLink>
             <NavigationLink to='/about' selected={true} >À propos des RT</NavigationLink>
-            <NavigationLink to='/evenements' selected={false} >Évènements</NavigationLink>
+            <NavigationLink to='/events' selected={false} >Évènements</NavigationLink>
             <NavigationLink to='/shop' selected={false} >Boutique</NavigationLink>
             <NavigationLink to='/contact' selected={false} >Contact</NavigationLink>
             <div className={`lines`}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.scss';
-import cup from './../../images/cropped-rt-logo-2-red.jpeg';
+import cup from './../../images/cropped-rt-logo-2.jpeg';
 import SocialLink from '../SocialLink/SocialLink';
 import insta from '../../images/insta.png';
 import mail from '../../images/mail.png';

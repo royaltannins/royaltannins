@@ -18,7 +18,7 @@ const App : React.FC = props => {
         <HashRouter>
             <Header />
             <Routes>
-                <Route path={"/evenements"} element={<Events />} >
+                <Route path={"/events"} element={<Events />} >
                 </Route>
 
                 <Route path={"/contact"} element={<Contact />} >
