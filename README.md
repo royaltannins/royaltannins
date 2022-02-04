@@ -1,46 +1,15 @@
-# Getting Started with Create React App
+Au départ, Royal Tannins n’étaient qu’une blague entre copains !
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎓 Un jour de décembre, passé la trentaine, quelques gais lurons férus de vins décident de participer à une formation oenologique (WSET1). Une fois celle-ci en poche, ils décident de poursuivre l’aventure en se réunissant pour découvrir des vins d’ici et d’ailleurs, sans prétention, toujours guidés par la simple soif de découverte !
 
-## Available Scripts
+💡 Au fil du temps, l’un d’entre eux les surnomment les Royal Tannins, puis l’idée germe dans leur tête : et si on pouvait réunir des amateurs de vins, de tous horizons, pour réaliser des activités autour de cette passion ?
+C’est alors que l’aventure a débuté et que les Royal Tannins sont nés.
 
-In the project directory, you can run:
+🍇 Les Royal Tannins ont pour but de découvrir des pépites viticoles par le biais de dégustations, axées sur des thèmes ciblés, dans une multitude de lieux, ainsi que de rencontrer tout.e.s ces femmes et hommes qui participent à la confection de breuvage (cavistes, vignerons, artisans, etc.).
 
-### `npm start`
+📣 Amateurs de vins blancs, rouges, rosés, jaunes, de paille, champagnes, venez découvrir le monde du vin avec simplicité et convivialité, en ayant l’envie de partager des bons moments autour de vrais produits à boire et à manger.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+✉️ N’hésitez pas à nous contacter pour en savoir plus.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Les Royal Tannins.
+👑🍷
