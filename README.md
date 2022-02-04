@@ -11,5 +11,6 @@ C’est alors que l’aventure a débuté et que les Royal Tannins sont nés.
 
 ✉️ N’hésitez pas à nous contacter pour en savoir plus.
 
-- Les Royal Tannins.
-👑🍷
+
+*<div align="right">- Les Royal Tannins.</div>*
+<div align="right">👑🍷</div>
